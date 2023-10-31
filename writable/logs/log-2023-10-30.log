@@ -1,0 +1,15 @@
+CRITICAL - 2023-10-30 21:55:14 --> Undefined array key 9
+in APPPATH\Helpers\calculo_helper.php on line 43.
+ 1 APPPATH\Helpers\calculo_helper.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'C:\\laragon\\www\\codeigniter\\app\\Helpers\\calculo_helper.php', 43)
+ 2 APPPATH\Controllers\Home.php(12): validarCedula('23232')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 22:01:10 --> Unsupported operand types: string * int
+in APPPATH\Helpers\calculo_helper.php on line 21.
+ 1 APPPATH\Controllers\Home.php(12): validarCedula('fff')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,21 @@
+CRITICAL - 2023-10-26 00:21:48 --> Unsupported operand types: string + int
+in APPPATH\Helpers\calculo_helper.php on line 26.
+ 1 APPPATH\Controllers\Home.php(12): validarCedula('1002003001')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 00:26:37 --> Unsupported operand types: string + int
+in APPPATH\Helpers\calculo_helper.php on line 27.
+ 1 APPPATH\Controllers\Home.php(12): validarCedula('1002003001')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-26 00:26:42 --> Unsupported operand types: string + int
+in APPPATH\Helpers\calculo_helper.php on line 27.
+ 1 APPPATH\Controllers\Home.php(12): validarCedula('1002003001')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
